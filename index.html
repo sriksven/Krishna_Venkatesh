@@ -16,11 +16,17 @@
 <body class="light" id="top">
     <header class="header center">
         <h3>
-            <a href="https://example.com" class="link">SKV</a>
+            <a href="https://sriksven.github.io/" class="link">SK</a>
         </h3>
 
         <nav class="nav center">
             <ul class="nav__list center">
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#education">Education</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#experience">Experience</a>
+                </li>
                 <li class="nav__list-item">
                     <a class="link link--nav" href="#projects">Projects</a>
                 </li>
@@ -32,15 +38,18 @@
                 </li>
             </ul>
 
-            <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-        </button>
+            <div class="nav__controls">
+                <button type="button" aria-label="Toggle theme" class="btn btn--icon">
+                    <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+                </button>
 
-            <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
+                <button type="button" aria-label="Toggle navigation" class="btn btn--icon nav__hamburger">
+                    <i aria-hidden="true" class="fas fa-bars"></i>
+                </button>
+            </div>
         </nav>
     </header>
+
 
     <main>
         <!-- About -->
@@ -69,6 +78,38 @@
                 </a>
             </div>
         </div>
+
+        <!-- Education -->
+        <section id="education" class="section education center" style="display: flex; justify-content: center; padding: 3em 0;">
+            <div class="education__content" style="text-align: center; max-width: 800px;">
+                <h2 class="section__title">Education</h2>
+                <h3>Master of Science in Data Science</h3>
+                <p>Northeastern University, Boston, MA (2023 - Present)</p>
+                <p>Courses: Data Management, Supervised and Unsupervised Machine Learning, Natural Language Processing, Algorithms</p>
+                <br>
+                <h3>Bachelor's in Information Science and Engineering</h3>
+                <p>B.N.M Institute of Technology, Bangalore, India (2017 - 2021)</p>
+                <p>Graduated with First Class Honors</p>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="experience" class="section experience center" style="display: flex; justify-content: center; padding: 3em 0;">
+            <div class="experience__content" style="text-align: center; max-width: 800px;">
+                <h2 class="section__title">Work Experience</h2>
+                <h3>Associate Data Engineer</h3>
+                <p>Altimetrik India Private Limited, Bangalore, India (10/2021 - 06/2023)</p>
+                <p>Developed ETL pipelines for processing large datasets.</p>
+                <p>Implemented data quality checks and automated monitoring solutions.</p>
+                <br>
+                <h3>Programmer Analyst</h3>
+                <p>Cognizant Technological Solutions, Bangalore, India (03/2021 - 07/2021)</p>
+                <p>Collaborated with cross-functional teams to deliver data-driven solutions.</p>
+                <p>Optimized existing codebases for better performance and scalability.</p>
+            </div>
+        </section>
+
+
 
         <!-- Projects -->
         <section id="projects" class="section projects">
@@ -141,46 +182,35 @@
                 <li class="skills__list-item btn btn--plain">Python</li>
                 <li class="skills__list-item btn btn--plain">SQL</li>
                 <li class="skills__list-item btn btn--plain">R</li>
-                <li class="skills__list-item btn btn--plain">Java</li>
-                <li class="skills__list-item btn btn--plain">Pandas</li>
-                <li class="skills__list-item btn btn--plain">NumPy</li>
-                <li class="skills__list-item btn btn--plain">Scikit-learn</li>
-                <li class="skills__list-item btn btn--plain">Matplotlib</li>
                 <li class="skills__list-item btn btn--plain">TensorFlow</li>
+                <li class="skills__list-item btn btn--plain">Keras</li>
                 <li class="skills__list-item btn btn--plain">PyTorch</li>
+                <li class="skills__list-item btn btn--plain">NLP</li>
+                <li class="skills__list-item btn btn--plain">Computer Vision</li>
+                <li class="skills__list-item btn btn--plain">Data Analysis</li>
+                <li class="skills__list-item btn btn--plain">Data Visualization</li>
+                <li class="skills__list-item btn btn--plain">ETL</li>
                 <li class="skills__list-item btn btn--plain">AWS</li>
+                <li class="skills__list-item btn btn--plain">Azure</li>
                 <li class="skills__list-item btn btn--plain">GCP</li>
-                <li class="skills__list-item btn btn--plain">Git</li>
-                <li class="skills__list-item btn btn--plain">Jenkins</li>
-                <li class="skills__list-item btn btn--plain">Tableau</li>
-                <li class="skills__list-item btn btn--plain">Jupyter Notebook</li>
             </ul>
         </section>
 
         <!-- Contact -->
         <section class="section contact center" id="contact">
             <h2 class="section__title">Contact</h2>
-            <a href="mailto:sriksven@gmail.com">
-                <span class="btn btn--outline">Email me</span>
+
+            <a href="mailto:krishnavenkatesh@example.com">
+                <span class="btn btn--outline">Email Me</span>
             </a>
         </section>
     </main>
 
     <footer class="footer">
-        <a href="https://github.com/sriksven" class="link footer__link">
-        Created By Krishna Venkatesh
-      </a>
+        <a href="https://example.com" class="footer__link">© 2024 Krishna Venkatesh</a>
     </footer>
 
-    <div class="scroll-container">
-        <div class="scroll-top">
-            <a aria-label="Scroll up" href="#top">
-                <i aria-hidden="true" class="fas fa-arrow-up"></i>
-            </a>
-        </div>
-    </div>
-
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
